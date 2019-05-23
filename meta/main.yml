@@ -1,0 +1,11 @@
+---
+dependencies:
+  - role: lvm
+    vars:
+      lvm_volumes:
+      - vg_name: "{{ vg_name }}"
+        lv_name: "{{ lv_name }}"
+        disk: "{{ disk }}"
+        filesystem: "{{ filesystem }}"
+        mount: "{{ mount }}"
+  - role: base

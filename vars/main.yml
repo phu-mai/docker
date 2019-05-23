@@ -1,0 +1,6 @@
+---
+vg_name: vg_data
+lv_name: lv_docker
+disk: xvdb
+filesystem: xfs
+mount: /var/lib/docker
